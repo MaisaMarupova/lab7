@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js 7-g</title>
+<script src="//code.jquery.com/jquery.js"></script>
+  <meta charset="utf-8">
+
+<meta name="robots" content="noindex">
+<style type="text/css">
+ .table_style {
+	width: 500px;
+	margin: 0px auto;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+table tr td{
+	width: 50%;
+	border: 1px solid #D0F5A9;
+	padding: 5px;
+}
+table tr th{
+	border: 1px solid #D0F5A9;
+	padding: 5px;
+}
+.zebra{
+	background-color: yellow;
+}
+  </style>
+</head>
+<body>
+<div class="table_style">
+	<table>
+		<tr>
+			<th>Studentin  aty</th>
+			<th>Nomiri</th>
+		</tr>
+		<tr>
+			<td>Maisa</td>
+			<td>87475236658</td>
+		</tr>
+		<tr>
+			<td>Tahir</td>
+			<td>87475236659</td>
+		</tr>
+		<tr>
+			<td>Bope</td>
+			<td>33333333</td>
+		</tr>
+		<tr>
+
+</div>
+<script>
+$(document).ready(function(){
+	$("tr:odd").addClass("zebra");
+});
+</script>
+</body>
+</html>
